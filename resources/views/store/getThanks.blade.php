@@ -8,6 +8,8 @@
 @stop
 
 @section('onReady_Scripts')
+BitTastic.init();
+	BitTastic.initIFrame('.main-content');
 @stop
 
 @extends('layouts.main')

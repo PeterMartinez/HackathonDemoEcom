@@ -20,3 +20,4 @@ Route::post('/cart', 'StoreController@addToCart');
 Route::get('/thanks', 'StoreController@getThanks');
 
 
+Route::get('/iFrame', 'StoreController@tempFrame');

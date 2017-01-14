@@ -1,4 +1,5 @@
 <?php
+//THIS IS HACKATHON QUALITY CODE, THIS ISNT HOW ANY SANE PERSON WOULD BUILD PRODUCT. 
 
 namespace App\Http\Controllers;
 
@@ -11,6 +12,10 @@ use Illuminate\Support\Collection;
 
 class StoreController extends Controller
 {
+    
+    public function tempFrame(){
+      return view('store.tempFrame');    
+    }
     
     public function getIndex(Request $request){
       return view('store.getIndex',[

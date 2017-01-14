@@ -40,7 +40,8 @@
 
     <script type="text/javascript">
     $( document ).ready(function() {
-        @yield('onReady_Scripts')     
+        @yield('onReady_Scripts')
+          
     });
     </script>
 </body>
