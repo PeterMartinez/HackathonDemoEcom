@@ -1,15 +1,8 @@
 BitTastic={
 	api_url:'http://fakeecomsite.com/iFrame',
 	iFrame:null,	
-	init:function(){
-		BitTastic.monitor();
-	},
-//START Discovery Tools
-	incentive:function(){
-		
-	}	
 //START iFrame Tools	
-	initIFrame:function(container){
+	init:function(container){
 		BitTastic.iFrame = document.createElement('iframe');
 			BitTastic.iFrame.id = "BitTastic";
 			BitTastic.iFrame.frameBorder = 0;
@@ -27,7 +20,7 @@ BitTastic={
 			      	console.log("loaded");
 			    }
 		}, 100);
-	}
+	},
 	initCom:function(){
 		window.addEventListener("message", BitTastic.receiveMessage, false);
 		BitTastic.sendMessage("hi");

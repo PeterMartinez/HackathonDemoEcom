@@ -5,11 +5,13 @@
 @stop
 
 @section('page_scripts')
+<!-- BitTastic JS -->
+<script type="text/javascript" src="/js/bittastic.js"></script>
+
 @stop
 
 @section('onReady_Scripts')
-BitTastic.init();
-	BitTastic.initIFrame('.main-content');
+BitTastic.init('.main-content');
 @stop
 
 @extends('layouts.main')

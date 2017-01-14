@@ -10,5 +10,3 @@
 <script type="text/javascript" src="/js/libs/wow.js"></script>
 <script type="text/javascript" src="/js/theme.js"></script>
 
-<!-- BitTastic JS -->
-<script type="text/javascript" src="/js/bittastic.js"></script>
